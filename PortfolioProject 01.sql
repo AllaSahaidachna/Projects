@@ -79,7 +79,7 @@ order by 1,2
 
 
 
---Looking at toyal Population vs Vaccinations
+--Looking at total Population vs Vaccinations
 
 
 
