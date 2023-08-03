@@ -7,7 +7,7 @@
 
 Напишите DDL/DML операторы
 Минимальные требования к хранению данных:*/
-	DROP TABLE db_laba.dbo.asahaidachna_menu_delivery;
+	DROP TABLE IF EXIST db_laba.dbo.asahaidachna_menu_delivery;
 
 	CREATE TABLE db_laba.dbo.asahaidachna_menu_delivery (
 	dish_id int  identity  PRIMARY KEY NOT NULL,
@@ -51,7 +51,7 @@
 
 --3.     Таблица с адресами для клиентов (у клиента есть возможность заказывать пиццу на разные адреса).
     --Эта таблица должна быть заполнена данными (минимум 15 адресов).
-	DROP TABLE db_laba.dbo.asahaidachna_adress_customers
+	
 
 	CREATE TABLE db_laba.dbo.asahaidachna_adress_customers(
 	adress_id int identity NOT NULL PRIMARY KEY,
@@ -92,7 +92,7 @@
 		SELECT * FROM db_laba.dbo.asahaidachna_salesman
 
 --5.     Таблица заказов. Заполнить для 10 заказов
-	DROP TABLE db_laba.dbo.asahaidachna_orders;
+	
 
 	CREATE TABLE db_laba.dbo.asahaidachna_orders(
 	order_id int identity NOT NULL PRIMARY KEY,
